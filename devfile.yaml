@@ -27,7 +27,7 @@ components:
         rootRequired: false
   - name: kubernetes-deploy
     attributes:
-      deployment/replicas: 1
+      deployment/replicas: 2
       deployment/cpuLimit: '100m'
       deployment/cpuRequest: 10m
       deployment/memoryLimit: 300Mi
